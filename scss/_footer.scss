@@ -9,7 +9,7 @@
     bottom: 0;
     left: 0;
     right: 0;
-    height: 128px;
+    height: 16%;
   }
   
 }
@@ -108,9 +108,8 @@
   align-items: center;
   list-style: none;
   margin: 0 auto;
-  padding: 0;
-  
-  
+  padding-left: 0;
+  padding-bottom: 55px;
 }
 
 .md-menu-mobile li {
@@ -166,7 +165,7 @@
   bottom: 0; 
   background-color: $primary-color;
   min-width: 100%;
-  min-height: 104px;
+  min-height: 80px;
   z-index: 5;
 
   @media screen and (min-width:1024px){

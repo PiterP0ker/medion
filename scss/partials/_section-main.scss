@@ -14,11 +14,11 @@
     @media screen and (min-width:640px){
       font-size: 17px;
     }
-    @media screen and (min-width:1024px){
+    @media screen and (min-width:1200px){
       font-size: 20px;
     }
   }
-
+  
   &__title {
     color: $text-color-light;
     text-transform: uppercase;

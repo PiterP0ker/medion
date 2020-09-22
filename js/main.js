@@ -15,4 +15,34 @@
     $('.md-header-contacts').toggleClass('opacity');
   });
 
+  let overlay = document.getElementById('overlay');
+  let vid = document.getElementById('md-video');
+
+if(overlay.addEventListener){
+		overlay.addEventListener("click", play, false)
+	}else if(overlay.attachEvent){
+		overlay.attachEvent("onclick", play)
+	}
+
+function play() { 
+    if (vid.paused){
+        vid.play(); 
+        overlay.className = "o";
+    }else {
+        vid.pause(); 
+        overlay.className = "";
+    }
+} 
+
+let bestSlider = $('.md-best-slider');
+bestSlider.slick({
+  slide: '.md-slide',
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  dots: true,
+  infinite: true,
+  appendDots: '.navigation-wrapper__dots',
+  
+});
+
 })();

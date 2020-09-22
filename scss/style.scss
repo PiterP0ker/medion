@@ -7,6 +7,7 @@ $body-font-family: "Montserrat", sans-serif;
 
 @import "layout";
 @import "elements";
+@import "slick";
 @import "header";
 @import "footer";
 @import "partials/section-main";
@@ -94,25 +95,31 @@ body{
   
   @media screen and (min-width:1024px){
     display: block;
-    height: 162px;
-    width: 162px;
+    height: 120px;
+    width: 120px;
     border-radius: 50%;
     transition: all linear 0.3s;
     display: flex;
     align-items: center;
     position: absolute;
     text-align: center;
-    font-size: 20px;
-    line-height: 24px;
+    font-size: 16px;
+    line-height: 1.2;
     text-transform: uppercase;
     font-weight: 700;
     text-decoration: none;
-    
+
+  }
+
+  @media screen and (min-width:1200px){
+    height: 162px;
+    width: 162px;
+    font-size: 20px;
   }
 
   &--main {
-    left: -81px;
-    bottom: 15%;
+    left: -60px;
+    bottom: 18%;
     background: $text-color-light;
     color: $primary-color;
 
@@ -139,7 +146,7 @@ body{
   position: absolute;
   font-size: 25px;
   line-height: 1.2;
-  bottom: 104px;
+  bottom: 80px;
   left: 0;
   right: 0;
   font-weight: 700;

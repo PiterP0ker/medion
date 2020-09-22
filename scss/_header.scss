@@ -4,7 +4,6 @@
   top: 0;
   right: 0;
   left: 0;
-  height: 120px;
   z-index: 4;
   background: $primary-color;
   border-bottom: 2px solid $text-color-light;
@@ -19,7 +18,7 @@
 .md-header-bar {
   display: flex;
   justify-content: space-between;
-  padding: 34px 20px 0 20px;
+  padding: 20px;
 
   @media screen and (min-width:1024px){
   padding: 12px 38px 0 72px;
