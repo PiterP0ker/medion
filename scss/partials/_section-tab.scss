@@ -74,6 +74,7 @@
 .md-wrapper-60prs {
   width: 100%;
   order: 0;
+  display: none;
 
   img {
     background-size: cover;
@@ -117,6 +118,10 @@
       padding-bottom: 80px;
     }
   }
+}
+
+.md-wrapper-60prs-video {
+  display: block;
 }
 
 ::-webkit-scrollbar {
