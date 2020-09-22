@@ -1,7 +1,11 @@
 .md-intro {
   max-width: 692px;
-  margin-top: 180px;
+  margin-top: 80px;
   z-index: 2;
+
+  @media screen and (min-width:640px){
+    margin-top: 180px;
+  }
 
   &__subtitle {
     color: $text-color-light;

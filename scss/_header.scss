@@ -28,7 +28,6 @@
 }
 
 .md-header-contacts {
-  margin-top: 35px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -39,6 +38,8 @@
 
   @media screen and (min-width:1024px){
     position: static;
+    margin-top: 35px;
+
   }
 
   span {

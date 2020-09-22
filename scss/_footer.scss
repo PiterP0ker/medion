@@ -96,6 +96,7 @@
   transition: transform 0.9s;
   transform: translateY(calc(-100% - 10px));
   z-index: 3;
+  margin-top: -20px;
 
   @media screen and (min-width:1024px){
     display: none;
