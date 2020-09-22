@@ -695,7 +695,7 @@ select {
     .md-text-inner {
       max-width: 80%;
       padding-right: 30px;
-      height: 64vh; } }
+      height: 60vh; } }
 
 .md-text-inner img {
   display: block;
@@ -879,7 +879,7 @@ body {
   background: #F5F5F5;
   width: 100vw;
   color: #1D519A;
-  padding: 20px 0;
+  padding: 10px 0;
   text-decoration: none;
   display: flex;
   justify-content: center;
