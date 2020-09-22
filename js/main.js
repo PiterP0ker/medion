@@ -34,15 +34,4 @@ function play() {
     }
 } 
 
-let bestSlider = $('.md-best-slider');
-bestSlider.slick({
-  slide: '.md-slide',
-  slidesToShow: 1,
-  slidesToScroll: 1,
-  dots: true,
-  infinite: true,
-  appendDots: '.navigation-wrapper__dots',
-  
-});
-
 })();
