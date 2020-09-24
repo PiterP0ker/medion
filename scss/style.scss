@@ -12,12 +12,17 @@ $body-font-family: "Montserrat", sans-serif;
 @import "partials/section-main";
 @import "partials/section-tab";
 
+html, body {
+  overflow-y: hidden;
+}
+
 body{
   font: 400 18px/1.2 $body-font-family;
   color: $text-color-dark;
   background: #F5F5F5;
   margin: 0;
   padding: 0;
+  position: relative
 }
 
 /* Layout */
