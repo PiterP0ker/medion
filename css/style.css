@@ -412,7 +412,7 @@ select {
       bottom: 0;
       left: 0;
       right: 0;
-      height: 16%; } }
+      height: 130px; } }
 
 .md-main-nav {
   display: none; }
@@ -670,7 +670,6 @@ select {
   order: 1; }
   @media screen and (min-width: 640px) {
     .md-text-wrapper {
-      padding-top: 45px;
       width: 40%; } }
 
 .video_holder {
@@ -694,12 +693,18 @@ select {
   height: 100%;
   overflow: auto;
   padding-right: 30px;
-  padding-left: 20px; }
+  padding-left: 20px;
+  padding-bottom: 90px; }
   @media screen and (min-width: 640px) {
     .md-text-inner {
       max-width: 80%;
       padding-right: 30px;
-      height: 60vh; } }
+      height: 80vh; } }
+  @media screen and (min-width: 1024px) {
+    .md-text-inner {
+      max-width: 80%;
+      padding-right: 30px;
+      height: 65vh; } }
 
 .md-text-inner img {
   display: block;
@@ -759,6 +764,11 @@ select {
         object-fit: cover;
         padding-top: 90px;
         padding-bottom: 80px; } }
+  @media screen and (min-width: 1024px) {
+    .md-wrapper-60prs img {
+      padding-bottom: 130px; }
+    .md-wrapper-60prs video {
+      padding-bottom: 130px; } }
 
 .md-wrapper-60prs-video {
   display: block; }
@@ -812,11 +822,14 @@ body {
     flex-direction: column;
     overflow: hidden;
     max-height: 100vh;
-    padding-top: 70px;
-    padding-bottom: 126px; }
+    padding-top: 90px;
+    padding-bottom: 80px; }
     @media screen and (min-width: 640px) {
       .md-section--tab {
         display: block; } }
+    @media screen and (min-width: 1024px) {
+      .md-section--tab {
+        padding-bottom: 147px; } }
 
 .bg-medion {
   position: absolute;
@@ -857,7 +870,7 @@ body {
       font-size: 20px; } }
   .md-button--main {
     left: -60px;
-    bottom: 18%;
+    bottom: 22%;
     background: #F5F5F5;
     color: #1D519A; }
     .md-button--main:hover {
@@ -865,7 +878,7 @@ body {
       color: #F5F5F5; }
   .md-button--tab-who {
     right: 27px;
-    bottom: 18%;
+    bottom: 22%;
     background: #1D519A;
     color: #F5F5F5; }
     .md-button--tab-who:hover {
