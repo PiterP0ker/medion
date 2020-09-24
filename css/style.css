@@ -782,12 +782,16 @@ select {
 ::-webkit-scrollbar-track {
   background-color: #ECECEC; }
 
+html, body {
+  overflow: hidden; }
+
 body {
   font: 400 18px/1.2 "Montserrat", sans-serif;
   color: #4A4A4A;
   background: #F5F5F5;
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  position: relative; }
 
 /* Layout */
 .md-container {
