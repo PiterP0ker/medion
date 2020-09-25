@@ -1,5 +1,5 @@
 .md-intro {
-  max-width: 692px;
+  max-width: 500px;
   margin-top: 80px;
   z-index: 2;
 
@@ -46,4 +46,22 @@
     }
   }
   
+}
+
+.liqpay-inner-link {
+  color: $text-color-light;
+  display: inline-block;
+  text-decoration: none;
+  width: 100%;
+  padding: 15px 20px;
+  background: $primary-color;
+  text-align: center;
+  text-transform: uppercase;
+  transition: all linear 0.4s;
+  font-weight: 700;
+  
+
+  &:hover {
+    background: #E8505B;
+  }
 }

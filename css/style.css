@@ -624,7 +624,7 @@ select {
   background-color: transparent; }
 
 .md-intro {
-  max-width: 692px;
+  max-width: 500px;
   margin-top: 80px;
   z-index: 2; }
   @media screen and (min-width: 640px) {
@@ -660,6 +660,20 @@ select {
         width: 100%;
         height: 100vh;
         object-fit: cover; } }
+
+.liqpay-inner-link {
+  color: #F5F5F5;
+  display: inline-block;
+  text-decoration: none;
+  width: 100%;
+  padding: 15px 20px;
+  background: #1D519A;
+  text-align: center;
+  text-transform: uppercase;
+  transition: all linear 0.4s;
+  font-weight: 700; }
+  .liqpay-inner-link:hover {
+    background: #E8505B; }
 
 .md-text-wrapper {
   width: 100%;
@@ -866,7 +880,8 @@ body {
       line-height: 1.2;
       text-transform: uppercase;
       font-weight: 700;
-      text-decoration: none; } }
+      text-decoration: none;
+      justify-content: center; } }
   @media screen and (min-width: 1200px) {
     .md-button {
       height: 162px;
@@ -878,7 +893,7 @@ body {
     background: #F5F5F5;
     color: #1D519A; }
     .md-button--main:hover {
-      background: #1D519A;
+      background: #E8505B;
       color: #F5F5F5; }
   .md-button--tab-who {
     right: 27px;
@@ -886,8 +901,8 @@ body {
     background: #1D519A;
     color: #F5F5F5; }
     .md-button--tab-who:hover {
-      background: #F5F5F5;
-      color: #1D519A; }
+      background: #E8505B;
+      color: #F5F5F5; }
 
 .md-button-only-mobile {
   position: absolute;
@@ -911,5 +926,48 @@ body {
 
 .opacity {
   opacity: 0; }
+
+.button-fixed {
+  display: none; }
+  @media screen and (min-width: 1024px) {
+    .button-fixed {
+      display: block;
+      position: fixed;
+      right: 0;
+      top: 90px;
+      transition: all linear 0.3s;
+      text-align: center;
+      word-wrap: break-word;
+      padding: 10px;
+      background-color: #E8505B;
+      color: #fff;
+      border-radius: 5px 0 0 5px;
+      text-align: center;
+      font-size: 16px;
+      line-height: 1.2;
+      text-transform: uppercase;
+      font-weight: 700;
+      text-decoration: none;
+      z-index: 999; }
+      .button-fixed:hover {
+        background: #F5F5F5;
+        color: #1D519A; } }
+
+.button-fixed-mobile {
+  font-size: 25px;
+  line-height: 1.2;
+  font-weight: 700;
+  background: #F5F5F5;
+  width: 100vw;
+  color: #1D519A;
+  padding: 10px 0;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  z-index: 4;
+  margin-left: -20px; }
+  @media screen and (min-width: 1024px) {
+    .button-fixed-mobile {
+      display: none; } }
 
 /*# sourceMappingURL=style.css.map */
